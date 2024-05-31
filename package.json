@@ -10,7 +10,7 @@
     "postinstall": "npm install esbuild && npm install --legacy-peer-deps --save-dev -g @angular/cli @angular-devkit/build-angular",
     "build:prod": "export NODE_TLS_REJECT_UNAUTHORIZED=0 && ng build",
     "build:dev": "export NODE_TLS_REJECT_UNAUTHORIZED=0 && ng build",
-    "heroku-postbuild": "ng build --prod"
+    "heroku-postbuild": "ng build --configuration=production"
   },
   "private": true,
   "dependencies": {
