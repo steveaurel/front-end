@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "postinstall": "npm install esbuild && npm install --save-dev @angular/cli @angular-devkit/build-angular",
+    "postinstall": "npm install esbuild && npm install --legacy-peer-deps --save-dev @angular/cli @angular-devkit/build-angular",
     "build:prod": "export NODE_TLS_REJECT_UNAUTHORIZED=0 && ng build",
     "build:dev": "export NODE_TLS_REJECT_UNAUTHORIZED=0 && ng build",
     "heroku-postbuild": "ng build --prod"
