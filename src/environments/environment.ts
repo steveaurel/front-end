@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  BASE_URL: 'http://localhost:8888'
+  BASE_URL: 'https://jo-gateway-service-04d98ecc3d99.herokuapp.com'
 };
 
 /*
