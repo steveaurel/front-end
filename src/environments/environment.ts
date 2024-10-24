@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  BASE_URL: 'https://jo-gateway-service-04d98ecc3d99.herokuapp.com'
+  BASE_URL: 'jo-paris-production.up.railway.app'
 };
 
 /*
